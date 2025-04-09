@@ -36,7 +36,7 @@ That’s when **MeloMatch** was born — a musical sidekick in your pocket.
 
 ## 🛠️ Technologies Used
 
-- Android (Kotlin)
+- Android (Java)
 - MediaPlayer API
 - Custom playback engine (basic simulation)
 - UI/UX with XML layouts and animations
@@ -62,6 +62,27 @@ That’s when **MeloMatch** was born — a musical sidekick in your pocket.
 ## 👥 Team
 
 Developed at the **Afeqa x Rimon MusicTech Hackathon**, 2024  
-**2nd place winner 🥈**
+**🏆 2nd Place Winner**
 
-- **Omri Peer** – Idea,
+- **Omri Peer** – Idea & Development  
+- **Ori Katz** – Development  
+- **Robert Ifraimov** – Development  
+- **Yahav Eliyahu** – Development  
+
+Special thanks to:  
+- **Afeqa College of Engineering**  
+- **Rimon School of Music**
+
+---
+
+## 📸 Demo
+
+Watch a 5-minute live demo:  
+👉 [Link to video](https://www.youtube.com/shorts/pj65kfB61Ik))
+
+---
+
+## 📄 License
+
+This project was built as a demonstration prototype during a hackathon.  
+All rights reserved to the authors. Not for commercial use.
