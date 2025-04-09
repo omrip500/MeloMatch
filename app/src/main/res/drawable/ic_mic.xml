@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- קבוצה שמכילה את כל האובייקטים, מוזזת קצת למטה -->
+    <group
+        android:translateY="5">
+
+        <!-- מיקרופון -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M24,4c-2.21,0 -4,1.79 -4,4v12c0,2.21 1.79,4 4,4s4,-1.79 4,-4V8c0,-2.21 -1.79,-4 -4,-4z" />
+
+        <!-- בסיס המיקרופון -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,20c0,3.31 -2.69,6 -6,6s-6,-2.69 -6,-6h-2c0,4.08 3.05,7.44 7,7.93V34h2v-6.07c3.95,-0.49 7,-3.85 7,-7.93h-2z" />
+
+<!--        &lt;!&ndash; תו מוזיקלי מוקטן ומורם &ndash;&gt;-->
+<!--        <group-->
+<!--            android:translateX="6"-->
+<!--            android:translateY="-4"-->
+<!--            android:scaleX="0.9"-->
+<!--            android:scaleY="0.7">-->
+<!--            <path-->
+<!--                android:fillColor="#FFFFFF"-->
+<!--                android:pathData="M36,10v15.5c-0.9,-0.6 -2,-1 -3.2,-1 -2.65,0 -4.8,2.15 -4.8,4.8s2.15,4.8 4.8,4.8 4.8,-2.15 4.8,-4.8V14h4V10h-6z" />-->
+<!--        </group>-->
+
+    </group>
+</vector>

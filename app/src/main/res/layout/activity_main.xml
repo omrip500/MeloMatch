@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_orange_notes">
+
+    <!-- אייקון היסטוריה בפינה -->
+    <ImageView
+        android:id="@+id/historyIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_history"
+        android:contentDescription="History" />
+
+    <!-- בלוק עם הכפתור והטקסטים -->
+    <LinearLayout
+        android:id="@+id/centerBlock"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- כפתור עגול עם מיקרופון -->
+        <ImageButton
+            android:id="@+id/micButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/circle_button"
+            android:src="@drawable/ic_mic"
+            android:scaleType="centerInside"
+            android:contentDescription="Start Singing"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- טקסט ראשי -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sing for Me"
+            android:textSize="40sp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- טקסט משנה (מוסתר בהתחלה) -->
+        <TextView
+            android:id="@+id/subText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:gravity="center"
+            android:text="Your Playback is ME-LOading..."
+            android:textColor="#FFF"
+            android:textSize="40sp"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detected words will appear here"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
