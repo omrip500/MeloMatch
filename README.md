@@ -74,13 +74,6 @@ Special thanks to:
 
 ---
 
-## 📸 Demo
-
-Watch a 5-minute live demo:  
-👉 [Link to video](https://www.youtube.com/shorts/pj65kfB61Ik))
-
----
-
 ## 📄 License
 
 This project was built as a demonstration prototype during a hackathon.  
