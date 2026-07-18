@@ -66,7 +66,8 @@ Developed at the **Afeqa x Rimon MusicTech Hackathon**, 2024
 
 - **Omri Peer** – Idea & Development  
 - **Robert Ifraimov** – Development  
-- **Yahav Eliyahu** – Development  
+- **Yahav Eliyahu** – Development
+- - **Ori Katz** – Development  
 
 Special thanks to:  
 - **Afeqa College of Engineering**  
