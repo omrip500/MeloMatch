@@ -65,7 +65,6 @@ Developed at the **Afeqa x Rimon MusicTech Hackathon**, 2024
 **🏆 2nd Place Winner**
 
 - **Omri Peer** – Idea & Development  
-- **Ori Katz** – Development  
 - **Robert Ifraimov** – Development  
 - **Yahav Eliyahu** – Development  
 
